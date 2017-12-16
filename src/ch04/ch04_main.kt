@@ -6,8 +6,6 @@ package ch04
  */
 
 fun main(args: Array<String>) {
-    val button = Button()
-    button.showOff()
-    button.setFocus(true)
-    button.click()
+    val u = User3()
+    println(u.a(4,5))
 }

@@ -11,7 +11,7 @@ abstract class Animated {
     //抽象函数必须被重写
     abstract fun animate()
 
-    //非抽象
+    //非抽象函数并不是默认open的，但是可以标注成open
     open fun stopAnimating(){}
 
     fun animateTwice(){}
